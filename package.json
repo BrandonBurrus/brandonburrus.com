@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "brandonburrus-portfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My personal portfolio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Brandon Burrus <brandon@burrus.io> https://brandonburrus.com",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
     "@material-ui/lab": "^4.0.0-alpha.51",
