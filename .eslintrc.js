@@ -12,7 +12,7 @@ module.exports = {
     },
     'import/resolver': {
       node: {
-        extensions: ['.jsx', '.jsx', '.module.css'],
+        extensions: ['.js', '.jsx', '.module.css'],
         paths: ['./src'],
       },
     },
