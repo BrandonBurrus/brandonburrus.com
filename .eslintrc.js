@@ -4,10 +4,17 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
+    node: true,
   },
   settings: {
     react: {
       version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.jsx', '.jsx', '.module.css'],
+        paths: ['./src'],
+      },
     },
   },
   plugins: [
