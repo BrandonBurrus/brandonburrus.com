@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <main>
@@ -8,6 +8,6 @@ const IndexPage = () => (
       I'm a <span>Software Engineer</span>
     </h2>
   </main>
-)
+);
 
-export default IndexPage
+export default IndexPage;
