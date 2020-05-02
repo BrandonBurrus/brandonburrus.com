@@ -1,0 +1,25 @@
+.light-theme {
+  --text-color: #2b2b2a;
+  --background-color: #f2fbfe;
+}
+
+:root {
+  --header-font: 'Ubuntu', sans-serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+  font-weight: bolder;
+}
+
+p,
+a,
+li {
+  font-family: var(--body-font);
+}

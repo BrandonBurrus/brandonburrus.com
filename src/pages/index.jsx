@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import Head from '../app/components/seo/Head';
+import HomeView from '../app/views/home/Home';
 
+/**
+ * Home page
+ */
 const IndexPage = () => (
-  <main>
-    <h1>Brandon Burrus</h1>
-    <h2>
-      I'm a <span>Software Engineer</span>
-    </h2>
-  </main>
+  <>
+    <Head title='Passionate about Software.' />
+    <HomeView />
+  </>
 );
 
 export default IndexPage;
