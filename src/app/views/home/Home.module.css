@@ -1,5 +1,8 @@
 .container {
   padding: 0 64px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
   transition: padding 0.75s;
 }
 
@@ -7,4 +10,29 @@
   .container {
     padding: 0 20px;
   }
+}
+
+.mainSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 2px;
+}
+
+.headerText {
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 24px;
+  color: var(--black);
+}
+
+.swe {
+  color: var(--primary-color);
+}
+
+.subText {
+  font-size: 20px;
+  color: var(--dark-grey);
+  line-height: 28px;
 }

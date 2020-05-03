@@ -19,7 +19,6 @@ export const ROUTES = {
   HOME: '/',
   ABOUT: '/',
   PROJECTS: '/',
-  SKILLS: '/',
   EXPERIENCE: '/',
   CONTACT: '/',
   ERR: '/404',

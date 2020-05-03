@@ -15,11 +15,6 @@
   font-weight: 900;
   font-size: 24px;
   color: var(--dark-grey);
-  transition: color 0.3s;
-}
-
-.headerText:hover {
-  color: var(--secondary-color);
 }
 
 @media (max-width: 600px) {
@@ -48,7 +43,6 @@
 }
 
 .link:hover {
-  /* color: var(--secondary-color); */
   padding: 40px 0 28px 0;
 }
 

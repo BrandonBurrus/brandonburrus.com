@@ -24,9 +24,6 @@ function Navbar() {
         <Link to={ROUTES.PROJECTS} className={styles.link}>
           Projects
         </Link>
-        <Link to={ROUTES.SKILLS} className={styles.link}>
-          Skills
-        </Link>
         <Link to={ROUTES.EXPERIENCE} className={styles.link}>
           Experience
         </Link>
