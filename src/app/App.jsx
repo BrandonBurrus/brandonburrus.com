@@ -1,5 +1,5 @@
 import React from 'react';
-import { StylesProvider } from '@material-ui/core';
+import { StylesProvider, CssBaseline } from '@material-ui/core';
 import ThemeProvider from './components/seo/Theme';
 import './css/reset.css';
 import './css/themes.css';
@@ -11,7 +11,10 @@ import './css/themes.css';
 function App({ element }) {
   return (
     <ThemeProvider>
-      <StylesProvider injectFirst>{element}</StylesProvider>
+      <StylesProvider injectFirst>
+        <CssBaseline />
+        {element}
+      </StylesProvider>
     </ThemeProvider>
   );
 }

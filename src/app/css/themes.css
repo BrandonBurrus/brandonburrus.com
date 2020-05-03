@@ -1,25 +1,28 @@
 .light-theme {
+  --primary-color: #44D7B6;
+  --secondary-color: #7D44D7;
   --text-color: #2b2b2a;
   --background-color: #f2fbfe;
+  --background2-color: #EEEEEE;
+  --background3-color: #DDDDDD;
+  --background4-color: #999999;
+  --gradient: linear-gradient( 159deg, rgba(68, 215, 182, 1) 0%, rgba(125, 68, 215, 1) 100%);
+}
+
+.dark-theme {
+  /* TODO: Implement dark-mode theme */
 }
 
 :root {
-  --header-font: 'Ubuntu', sans-serif;
-  --body-font: 'Roboto', sans-serif;
+  --header-font: 'Playfair Display', serif;
+  --body-font: 'Rubik', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
   font-weight: bolder;
 }
 
-p,
-a,
-li {
+p, a, li {
   font-family: var(--body-font);
 }
