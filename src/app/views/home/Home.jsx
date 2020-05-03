@@ -21,7 +21,7 @@ function HomeView() {
           real-world problems.
         </p>
       </section> */}
-      {/* <SocialMediaBar /> */}
+      <SocialMediaBar />
     </Container>
   );
 }

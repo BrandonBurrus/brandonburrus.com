@@ -22,6 +22,7 @@ function Head(props) {
         href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Rubik:wght@300;400;500&display=swap'
         rel='stylesheet'
       />
+      <script src='https://kit.fontawesome.com/ab7aab33df.js' crossOrigin='anonymous' />
     </Helmet>
   );
 }
