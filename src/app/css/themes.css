@@ -1,4 +1,4 @@
-:global(.light-theme) {
+.light-theme {
   --primary-color: #44d7b6;
   --secondary-color: #7d44d7;
   --white: #f2fbfe;
@@ -10,29 +10,36 @@
   --black: #2f2f2e;
 }
 
-:global(.dark-theme) {
+.dark-theme {
   /* TODO: Implement dark-mode theme */
 }
 
-:global(:root) {
+:root {
   --header-font: 'Playfair Display', serif;
   --body-font: 'Rubik', sans-serif;
   --invisible-color: rgba(0, 0, 0, 0);
 }
 
-:global(h1, h2, h3, h4, h5, h6) {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--header-font);
   font-weight: bolder;
 }
 
-:global(p, a, li) {
+p,
+a,
+li {
   font-family: var(--body-font);
 }
 
-:global(a:hover) {
+a:hover {
   color: var(--secondary-color);
 }
 
-:global(a:active) {
+a:active {
   color: var(--primary-color);
 }
