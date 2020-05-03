@@ -1,19 +1,5 @@
 export const TITLE = 'Brandon Burrus | Software Engineer';
-export const FAVICONS = [
-  '🚀',
-  '💻',
-  '🌎',
-  '⚛️',
-  '✨',
-  '⚡️',
-  '🌈',
-  '💥',
-  '🏙',
-  '💾',
-  '💡',
-  '📚',
-  '📐',
-];
+export const FAVICONS = ['🚀', '💻', '⚛️', '⚡️', '💥', '🏙'];
 
 export const ROUTES = {
   HOME: '/',
