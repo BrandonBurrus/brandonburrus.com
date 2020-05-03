@@ -1,38 +1,38 @@
-.light-theme {
-  --primary-color: #44D7B6;
-  --secondary-color: #7D44D7;
+:global(.light-theme) {
+  --primary-color: #44d7b6;
+  --secondary-color: #7d44d7;
   --white: #f2fbfe;
-  --dark-white: #EEEEEE;
-  --light-grey: #DDDDDD;
+  --dark-white: #eeeeee;
+  --light-grey: #dddddd;
   --grey: #979797;
   --dark-grey: #696868;
   --light-black: #323232;
   --black: #2f2f2e;
 }
 
-.dark-theme {
+:global(.dark-theme) {
   /* TODO: Implement dark-mode theme */
 }
 
-:root {
+:global(:root) {
   --header-font: 'Playfair Display', serif;
   --body-font: 'Rubik', sans-serif;
   --invisible-color: rgba(0, 0, 0, 0);
 }
 
-h1, h2, h3, h4, h5, h6 {
+:global(h1, h2, h3, h4, h5, h6) {
   font-family: var(--header-font);
   font-weight: bolder;
 }
 
-p, a, li {
+:global(p, a, li) {
   font-family: var(--body-font);
 }
 
-a:hover {
+:global(a:hover) {
   color: var(--secondary-color);
 }
 
-a:active {
+:global(a:active) {
   color: var(--primary-color);
 }
