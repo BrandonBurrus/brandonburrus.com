@@ -19,13 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Brandon Burrus Portfolio`,
+        short_name: `brandonburrus`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#f2fbfe`,
+        theme_color: `#44d7b6`,
         display: `minimal-ui`,
-        icon: `src/assets/images/profile.min.jpg`, // This path is relative to the root of the site.
+        icon: `src/assets/images/profile.min.jpg`,
       },
     },
     `gatsby-plugin-offline`,
