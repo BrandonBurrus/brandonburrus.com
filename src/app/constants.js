@@ -17,6 +17,11 @@ export const FAVICONS = [
 
 export const ROUTES = {
   HOME: '/',
+  ABOUT: '/',
+  PROJECTS: '/',
+  SKILLS: '/',
+  EXPERIENCE: '/',
+  CONTACT: '/',
   ERR: '/404',
   API: {
     RANDOM_IMG: '/.netlify/functions/random-img',
