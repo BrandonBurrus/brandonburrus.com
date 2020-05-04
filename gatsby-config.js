@@ -30,5 +30,6 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-eslint`,
+    `gatsby-plugin-postcss`,
   ],
 };
