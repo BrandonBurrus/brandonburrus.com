@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from '../../components/nav/Navbar';
-import { Container } from '@material-ui/core';
 import styles from './Home.module.css';
 import SocialMediaBar from '../../components/nav/SocialMediaBar';
+import PageContainer from '../../components/presentational/PageContainer';
 
 /**
  * Home component that displays all of the important
@@ -10,7 +10,7 @@ import SocialMediaBar from '../../components/nav/SocialMediaBar';
  */
 function HomeView() {
   return (
-    <Container disableGutters className={styles.container}>
+    <PageContainer className={styles.container}>
       <Navbar />
       <section className={styles.mainSection}>
         <h2 className={styles.headerText}>
@@ -24,7 +24,7 @@ function HomeView() {
         <div className={styles.underbar} />
       </section>
       <SocialMediaBar />
-    </Container>
+    </PageContainer>
   );
 }
 

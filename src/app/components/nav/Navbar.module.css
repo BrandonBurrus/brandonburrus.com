@@ -5,8 +5,9 @@
 }
 
 .header {
-  border-top: 8px solid var(--primary-color);
+  /* border-top: 8px solid var(--primary-color); */
   padding: 26px 0;
+  margin-top: 8px;
 }
 
 .headerText {
@@ -14,7 +15,7 @@
   font-family: var(--header-text);
   font-weight: 900;
   font-size: 24px;
-  color: var(--dark-grey);
+  color: var(--light-black);
 }
 
 @media (max-width: 600px) {
@@ -43,11 +44,15 @@
 }
 
 .link:hover {
-  padding: 40px 0 28px 0;
+  padding: 41px 0 25px 0;
 }
 
 @media (max-width: 960px) {
   .link {
     margin: 0 16px;
   }
+}
+
+.activeNavItem {
+  color: var(--secondary-color);
 }

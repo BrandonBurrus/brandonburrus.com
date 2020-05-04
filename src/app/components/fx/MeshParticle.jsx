@@ -6,7 +6,7 @@ import styles from './MeshParticle.module.css';
 const particleConfig = {
   particles: {
     number: {
-      value: 300,
+      value: 360,
       density: {
         enable: true,
         value_area: 7e3,
@@ -59,7 +59,7 @@ const particleConfig = {
     },
     move: {
       enable: true,
-      speed: 0.33,
+      speed: 0.7,
       direction: 'none',
       random: true,
       straight: false,

@@ -3,10 +3,10 @@ export const FAVICONS = ['🚀', '💻', '⚛️', '⚡️', '💥', '🏙'];
 
 export const ROUTES = {
   HOME: '/',
-  ABOUT: '/',
-  PROJECTS: '/',
-  EXPERIENCE: '/',
-  CONTACT: '/',
+  ABOUT: '/about',
+  PROJECTS: '/projects',
+  EXPERIENCE: '/experience',
+  CONTACT: '/contact',
   ERR: '/404',
   API: {
     RANDOM_IMG: '/.netlify/functions/random-img',

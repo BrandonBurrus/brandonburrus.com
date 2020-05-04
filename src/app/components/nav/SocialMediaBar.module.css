@@ -11,6 +11,11 @@
   color: var(--grey);
   padding: 24px 32px;
   margin: 10px 8px;
+  transition: padding-top 0.15s;
+}
+
+.icon:hover {
+  padding-top: 20px;
 }
 
 @media (max-width: 600px) {

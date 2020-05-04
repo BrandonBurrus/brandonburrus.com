@@ -1,4 +1,4 @@
-.light-theme {
+:global(.light-theme) {
   --primary-color: #44d7b6;
   --secondary-color: #7d44d7;
   --white: #f2fbfe;
@@ -10,11 +10,11 @@
   --black: #2f2f2e;
 }
 
-.dark-theme {
+:global(.dark-theme) {
   /* TODO: Implement dark-mode theme */
 }
 
-:root {
+:global(:root) {
   --header-font: 'Playfair Display', serif;
   --body-font: 'Rubik', sans-serif;
   --invisible-color: rgba(0, 0, 0, 0);
