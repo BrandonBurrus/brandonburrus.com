@@ -28,7 +28,7 @@ module.exports = {
         icon: `src/assets/images/profile.min.jpg`,
       },
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     `gatsby-plugin-eslint`,
     `gatsby-plugin-postcss`,
   ],
