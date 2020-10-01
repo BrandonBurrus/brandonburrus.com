@@ -1,7 +1,3 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
+import App from './src/app/App';
 
-// You can delete this file if you're not using it
+export const wrapRootElement = App;
