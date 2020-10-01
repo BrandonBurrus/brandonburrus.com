@@ -17,9 +17,9 @@ function HomeView() {
           I am a <span className={styles.swe}>Software Engineer</span>
         </h2>
         <p className={styles.subText}>
-          Passionate about creating user experiences, building products, solving
+          Passionate about creating user experiences, building products,
           <br />
-          problems, and developing solutions to real-world problems.
+          and solving real-world problems.
         </p>
         <div className={styles.underbar} />
       </section>

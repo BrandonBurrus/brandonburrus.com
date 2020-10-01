@@ -8,7 +8,7 @@ const ThemeContext = createContext(null);
  */
 function ThemeProvider(props) {
   const { children } = props;
-  const theme = useState('light');
+  const theme = useState('dark');
 
   return (
     <ThemeContext.Provider value={theme}>

@@ -1,9 +1,10 @@
 /* eslint-disable camelcase */
-import React from 'react';
+import React, { useMemo } from 'react';
 import Particles from 'react-particles-js';
 import styles from './MeshParticle.module.css';
+import { useTheme } from '../seo/Theme';
 
-const particleConfig = {
+const particleConfig = color => ({
   particles: {
     number: {
       value: 360,
@@ -13,7 +14,7 @@ const particleConfig = {
       },
     },
     color: {
-      value: '#DDD',
+      value: color,
     },
     shape: {
       type: 'circle',
@@ -52,23 +53,21 @@ const particleConfig = {
     },
     line_linked: {
       enable: true,
-      distance: 350,
-      color: '#E7E7E7',
+      distance: 300,
       opacity: 1,
       width: 0.7,
+      color,
     },
     move: {
       enable: true,
-      speed: 0.7,
+      speed: 0.6,
       direction: 'none',
       random: true,
       straight: false,
       out_mode: 'bounce',
       bounce: true,
       attract: {
-        enable: true,
-        rotateX: -600,
-        rotateY: -1200,
+        enable: false,
       },
     },
   },
@@ -112,10 +111,23 @@ const particleConfig = {
     },
   },
   retina_detect: true,
-};
+});
 
 function MeshParticle() {
-  return <Particles params={particleConfig} className={styles.particles} />;
+  const [theme] = useTheme();
+
+  const particleColor = useMemo(() => {
+    switch (theme) {
+      case 'light':
+        return '#E7E7E7';
+      case 'dark':
+        return '#424242';
+      default:
+        return '';
+    }
+  }, [theme]);
+
+  return <Particles params={particleConfig(particleColor)} className={styles.particles} />;
 }
 
 export default MeshParticle;

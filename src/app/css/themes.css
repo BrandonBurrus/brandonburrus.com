@@ -7,11 +7,25 @@
   --grey: #979797;
   --dark-grey: #696868;
   --light-black: #323232;
-  --black: #2f2f2e;
+  --black: #242423;
 }
 
 :global(.dark-theme) {
   /* TODO: Implement dark-mode theme */
+  --primary-color: #44d7b6;
+  --secondary-color: #44d7b6;
+  --white: #242423;
+  --dark-white: #323232;
+  --light-grey: #696868;
+  --grey: #979797;
+  --dark-grey: #dddddd;
+  --light-black: #eeeeee;
+  --black: #f2fbfe;
+}
+
+:global(.dark-theme),
+:global(.light-theme) {
+  border-top: 8px solid var(--dark-white);
 }
 
 :global(:root) {

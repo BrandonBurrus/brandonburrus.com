@@ -35,6 +35,11 @@ function Navbar() {
       {/*     Contact */}
       {/*   </Link> */}
       {/* </nav> */}
+      <div className={styles.resumeSection}>
+        <a href='/static/BrandonBurrusResume.pdf'>
+          <i className='fas fa-file-alt' /> Resume
+        </a>
+      </div>
     </section>
   );
 }
