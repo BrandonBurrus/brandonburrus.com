@@ -36,7 +36,7 @@ function Navbar() {
       {/*   </Link> */}
       {/* </nav> */}
       <div className={styles.resumeSection}>
-        <a href='/static/BrandonBurrusResume.pdf'>
+        <a href='/BrandonBurrusResume.pdf'>
           <i className='fas fa-file-alt' /> Resume
         </a>
       </div>
